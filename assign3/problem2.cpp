@@ -14,8 +14,7 @@ int row = 1;
 int space = 0;
 int plusses = 0;
 
-int main() {
-	cin >> length;
+ void diamond(int length) {
 
 	while (row < 2 * length) {
 		//block for determining  length
@@ -43,6 +42,11 @@ int main() {
 		cout << "\n";
 		row += 1;
 	}
+}
+
+int main() {
+	cin >> length;
+	diamond(length);
 
 	return 0;
 
