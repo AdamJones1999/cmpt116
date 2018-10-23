@@ -25,5 +25,7 @@ int main() {
 		cin << data;
 	}
 	
+	cout << "mean: " << mean << "standard deviation: " << stdDev << "\n";
+	
 	return 0;
 }
