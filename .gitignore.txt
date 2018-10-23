@@ -1,0 +1,2 @@
+#this gitignore ignores output files generated when code is compiled and run
+a.out
