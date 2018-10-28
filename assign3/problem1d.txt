@@ -1,0 +1,38 @@
+====problem 1d====
+
+----exit before integer inputs----
+
+input a set of integers, if there are
+adjacent duplicates, they will be printed.
+Input a character to exit program.
+asdf
+done
+
+----valid inputs----
+
+input a set of integers, if there are
+adjacent duplicates, they will be printed.
+Input a character to exit program.
+4 5 6 -5 5 -5 5 r
+done
+
+input a set of integers, if there are
+adjacent duplicates, they will be printed.
+Input a character to exit program.
+-4 -4 -4 4 4 4r
+-4 -4 4 4 done
+
+++++NOTE++++
+
+having a number output for every time it is duplicated (n-1 times it was input)
+is how two TA's I asked said that they would interpret the problem.
+
+discarding input after character:
+
+input a set of integers, if there are
+adjacent duplicates, they will be printed.
+Input a character to exit program.
+-5 -5 444 4 -4 -4 44 r 33 33
+-5 -4 done
+
+

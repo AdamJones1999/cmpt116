@@ -1,0 +1,64 @@
+-------------------
+problem4 test cases
+-------------------
+
+----invalid inputs----
+
+input any integer 1-3,999 to be converted to a Roman numeral
+input: asf
+output: invalid input
+
+input any integer 1-3,999 to be converted to a Roman numeral
+input: -1
+output: invalid input
+
+input any integer 1-3,999 to be converted to a Roman numeral
+input: 0.9999999999999999999999
+output: invalid input
+
+input any integer 1-3,999 to be converted to a Roman numeral
+input: 3999.000000001
+output: invalid input
+
+----valid inputs----
+
+input any integer 1-3,999 to be converted to a Roman numeral
+input: 3999
+output: MMMCMXCIX
+
+input any integer 1-3,999 to be converted to a Roman numeral
+input: 3888
+output: MMMDCCCLXXXVIII
+
+input any integer 1-3,999 to be converted to a Roman numeral
+input: 3777
+output: MMMDCCLXXVII
+
+input any integer 1-3,999 to be converted to a Roman numeral
+input: 2666
+output: MMDCLXVI
+
+input any integer 1-3,999 to be converted to a Roman numeral
+input: 2555
+output: MMDLV
+
+input any integer 1-3,999 to be converted to a Roman numeral
+input: 2444
+output: MMCDXLIV
+
+input any integer 1-3,999 to be converted to a Roman numeral
+input: 1333
+output: MCCCXXXIII
+
+input any integer 1-3,999 to be converted to a Roman numeral
+input: 1222
+output: MCCXXII
+
+input any integer 1-3,999 to be converted to a Roman numeral
+input: 111
+output: CXI
+
+input any integer 1-3,999 to be converted to a Roman numeral
+input: 3000
+output: MMM
+

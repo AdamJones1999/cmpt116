@@ -1,0 +1,30 @@
+==== problem 1c tests ====
+
+----exit before any int input----
+
+input some integers, then input a character to receive
+the sum of the integers input before the character.
+asdf
+done
+
+----valid inputs----
+
+input some integers, then input a character to receive
+the sum of the integers input before the character.
+-2 4 5 3 -2
+-2 2 7 10 8 f
+done
+
+discarding input after character:
+
+input some integers, then input a character to receive
+the sum of the integers input before the character.
+2 3 23 34 -100 f 32
+2 5 28 62 -38 done
+
+discarding input after decimal:
+
+input some integers, then input a character to receive
+the sum of the integers input before the character.
+3 4 5.5 56
+3 7 12 done
