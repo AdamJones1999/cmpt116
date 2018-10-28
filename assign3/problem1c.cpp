@@ -12,22 +12,20 @@
 #include <iostream>
 using namespace std;
 
-int total;
-int input;
+int total = 0;
+int input = 0;
 
 int main() {
-	cout << "input some integers, then input a \n\
-character to receive the sum of the integers input.\n";
-	cin >> input;
+	cout << "input some integers, then input a character to receive \
+	\nthe sum of the integers input before the character.\n";
 
 	/*while cin reads in input it can use,
 	 * if user input is a non-integer data type,
 	 * this while condition is false*/
-	while (cin) {
+	while (cin >> input) {
 		//add each input into total
 		total += input;
-		cout << total << "\n";
-		cin >> input;
+		cout << total << " ";
 	}
 	cout << "done";
 	return 0;

@@ -21,15 +21,16 @@ int input;
 int main() {
 	cout << "input some integers one at a time, then input a character\n\
 to receive the smallest and largest of the \
-integers you input.\n";
+integers you input \nbefore the character.\n";
 	cin >> input;
+	
 	smallest = input;
 	largest = input;
-
 	/*while cin reads in input it can use,
 	 * if user input is a non-integer data type,
 	 * this while condition is false*/
 	while (cin) {
+		
 		if (input > largest) {
 			largest = input;
 		}
@@ -38,6 +39,7 @@ integers you input.\n";
 		}
 		cin >> input;
 	}
-	cout << "smallest input: " << smallest << ", largest: " << largest;
+	
+	cout << "smallest input: " << smallest << ", largest: " << largest << "\n";
 	return 0;
 }

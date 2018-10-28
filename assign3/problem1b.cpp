@@ -14,9 +14,8 @@
 using namespace std;
 
 int main() {
-	cout << "input some integers, then input a character \n\
-to receive the number of even and odd \
-integers you input.\n";
+	cout << "input some integers, then input a character to receive the \n\
+number of even and odd integers you input before the character.\n";
 
 	int evenNum = 0;
 	int oddNum = 0;
@@ -32,12 +31,12 @@ integers you input.\n";
 			evenNum += 1;
 		}
 		//odd numbers aren't divisible by 2
-		else if (input % 2 == 1) {
+		else if ( (input % 2 == 1) || (input % 2 == -1) ) {
 			oddNum += 1;
 		}
 		cin >> input;
 	}
-	cout << "number of even inputs: " << evenNum << ", number of odd inputs: " << oddNum;
+	cout << "number of even inputs: " << evenNum << ", number of odd inputs: " << oddNum << "\n";
 	return 0;
 }
 

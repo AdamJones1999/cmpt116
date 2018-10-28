@@ -45,6 +45,9 @@ int plusses = 0;
 }
 
 int main() {
+	
+	cout << "input the side length of the diamond \n\
+made of plus-signs you want printed.\n";
 	cin >> length;
 	diamond(length);
 

@@ -14,16 +14,24 @@
 using namespace std;
 
 int main() {
-	cout
-			<< "input a set of integers, if there are \n\
+	cout << "input a set of integers, if there are \n\
 adjacent duplicates, they will be printed. \n\
 Input a character to exit program.\n";
 
 	int current_input;
-	int last_input;
+	int last_input = 0;
 
 	/*if current input is equal to the last input
-	 * the value of that input is printed*/
+	 * the value of that input is printed
+	 IF there are multiple duplicates, each on is 
+	 output so that the user can tell how many duplicates
+	 there is. I've asked a couple TA's and they 
+	 said this is the way they would do it.
+	 
+	 for example: four 3's input in a row outputs three 3's*/
+	 
+	cin >> current_input;
+	
 	while (cin) {
 		if (current_input == last_input) {
 			cout << current_input << " ";
