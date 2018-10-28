@@ -1,0 +1,110 @@
+Problem 2:
+
+if single
+    {
+    if income <= 32,000
+        {
+        10% bracket
+        }
+    else
+        {
+        25% bracket
+        }
+else
+    if income <= 64,000
+        {
+        10% bracket
+        }
+    else
+        {
+        25% bracket
+        }
+    }
+
+Pronblem 3 ii:
+
+let (day1, hour1, minute1) = first time obtained from user
+
+let (day2, hour2, minute2) = second time obtained from user
+
+if day1 < day2                                          //start new
+
+    {first time is earlier than the second}
+
+else if day1 > day2
+
+    {second time is eariler than the second}
+
+else
+    
+    {                                                  //end new 
+
+    if hour1 < hour 2 
+
+       { first time is earlier than second time }
+
+    else if hour1 > hour2
+
+       { second time is earlier than first time}
+
+    else 
+
+       { if minute1 < minute2 
+
+           { first time is earlier than second time }
+
+         else if minute1 > minute2
+
+           { second time is earlier than first time }
+
+         else if minute1 = minute2
+
+           { both times are the same }
+
+       }
+
+    }
+
+Problem 4 ii:
+
+let r = random integer between 1 and 100
+
+let g = number guessed by user
+
+let numGuess = 0                                //new
+
+if g = r
+
+  { say: “you got it on first attempt!” }
+
+else
+
+  { let oldguess = g 
+
+   { say : “try again” }
+
+
+    while g is not equal to r
+
+       { if abs(g - r} < abs(oldguess - r)
+
+            { say: “getting warmer.  try again.” 
+
+              let oldguess = g }
+
+         else if abs(g - r) > abs(oldguess - r)
+
+            { say: “getting cooler. try again.” 
+
+              let oldguess = g }
+
+         else
+
+            { say: “get serious!  that’s exactly the same guess!  try again.” }    
+
+        {let numGuess = numGuess +1}            //new
+
+      }
+
+     say: “you got it!” 
+

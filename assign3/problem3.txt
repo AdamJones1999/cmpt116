@@ -1,0 +1,39 @@
+====problem 3 tests====
+
+----starting with invalid input---
+
+input some integers and end the data set with
+a 0 or a non-number character. Then hit enter to calculate the mean and standard
+ deviation of the data set.
+
+d
+no data input
+
+----valid inputs----
+
+only one data point:
+
+input some integers and end the data set with
+a 0 or a non-number character. Then hit enter to calculate the mean and standard
+ deviation of the data set.
+4 0
+mean: 4 standard deviation: undefined
+
+++++NOTE++++ 
+when number of inputs = 1, the denominator of the standard
+deviation formula is 0, so the standard deviation is not 0, it is undefined
+
+input some integers and end the data set with
+a 0 or a non-number character. Then hit enter to calculate the mean and standard
+ deviation of the data set.
+4.4 45 4 -3 0
+mean: 12.6 standard deviation: 21.8657
+
+terminating with character input:
+
+input some integers and end the data set with
+a 0 or a non-number character. Then hit enter to calculate the mean and standard
+ deviation of the data set.
+ 4 54 4 3 4 -464 -3
+f
+mean: -56.8571 standard deviation: 180.577

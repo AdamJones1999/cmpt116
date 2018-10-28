@@ -1,0 +1,36 @@
+====problem 1a tests====
+
+----exit input with no values given----
+
+
+input some integers one at a time, then input a character
+to receive the smallest and largest of the integers you input
+before the character.
+dfda
+smallest input: 0, largest: 0
+
+
+----valid inputs----
+
+
+input some integers one at a time, then input a character
+to receive the smallest and largest of the integers you input
+before the character.
+ 25 554384 134234 1432 1
+f
+smallest input: 1, largest: 554384
+
+input some integers one at a time, then input a character
+to receive the smallest and largest of the integers you input
+before the character.
+-12 2-23 241
+23r
+smallest input: -23, largest: 241
+
+input some integers one at a time, then input a character
+to receive the smallest and largest of the integers you input
+before the character.
+-3 5 -43 -r45 -100
+smallest input: -43, largest: 5
+
+

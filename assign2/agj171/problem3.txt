@@ -1,0 +1,56 @@
+--------------------
+problem 3 test cases
+--------------------
+
+----invalid cases----
+
+input a wavelength value, in meters, to see where it lies on the electromagnetic spectrum.
+input: 0
+output: invalid input
+
+input a wavelength value, in meters, to see where it lies on the electromagnetic spectrum.
+input: -42
+output: invalid input
+
+input a wavelength value, in meters, to see where it lies on the electromagnetic spectrum.
+input: foo bar fizz buzz
+output: invalid input
+
+----boundary cases----
+
+input a wavelength value, in meters, to see where it lies on the electromagnetic spectrum.
+input: 42
+output: this wavelength is in the radio wave part of the EM spectrum
+
+input a wavelength value, in meters, to see where it lies on the electromagnetic spectrum.
+input: 1e-1
+output: this wavelength is in the microwave part of the EM spectrum
+
+input a wavelength value, in meters, to see where it lies on the electromagnetic spectrum.
+input: 1e-3
+output: this wavelength is in the microwave part of the EM spectrum
+
+input a wavelength value, in meters, to see where it lies on the electromagnetic spectrum.
+input: 7e-7
+output: this wavelength is in the infrared part of the EM spectrum
+
+input a wavelength value, in meters, to see where it lies on the electromagnetic spectrum.
+input: 4e-7
+output: this wavelength is in the visible light part of the EM spectrum
+
+input a wavelength value, in meters, to see where it lies on the electromagnetic spectrum.
+input: 1e-8
+output: this wavelength is in the ultravoliet part of the EM spectrum
+
+input a wavelength value, in meters, to see where it lies on the electromagnetic spectrum.
+input: 1e-11
+output: this wavelength is in the x-ray part of the EM spectrum
+
+input a wavelength value, in meters, to see where it lies on the electromagnetic spectrum.
+input: 6.626e-34
+output: this wavelength is in the gamma ray part of the EM spectrum
+
+
+
+
+

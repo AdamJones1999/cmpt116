@@ -1,0 +1,79 @@
+--------------------
+problem 1 test cases
+--------------------
+
+----valid inputs----
+
+Input a numerical month
+3
+Input a numerical day in the chosen month
+21
+the season is: Spring
+
+Input a numerical month
+6
+Input a numerical day in the chosen month
+21
+the season is: Summer
+
+Input a numerical month
+9
+Input a numerical day in the chosen month
+21
+the season is: Fall
+
+Input a numerical month
+12
+Input a numerical day in the chosen month
+21
+the season is: Winter
+
+Input a numerical month
+3
+Input a numerical day in the chosen month
+20
+the season is: Winter
+
+Input a numerical month
+6
+Input a numerical day in the chosen month
+20
+the season is: Spring
+
+Input a numerical month
+9
+Input a numerical day in the chosen month
+20
+the season is: Summer
+
+Input a numerical month
+12
+Input a numerical day in the chosen month
+20
+the season is: Fall
+
+Input a numerical month
+2
+Input a numerical day in the chosen month
+25
+the season is: Winter
+
+
+----invalid inputs----
+
+Input a numerical month
+no
+Input a numerical day in the chosen month
+invalid input
+
+Input a numerical month
+-6
+Input a numerical day in the chosen month
+9
+invalid input
+
+Input a numerical month
+9
+Input a numerical day in the chosen month
+-4
+invalid input

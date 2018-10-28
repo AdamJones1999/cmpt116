@@ -1,0 +1,30 @@
+====problem 1b tests====
+
+----exit input before any valid inputs----
+
+input some integers, then input a character to receive the
+number of even and odd integers you input before the character.
+asdf
+number of even inputs: 0, number of odd inputs: 0
+
+----valid input----
+
+input some integers, then input a character to receive the
+number of even and odd integers you input before the character.
+-1 3 3 3 4 4 3 -3 -7
+d
+number of even inputs: 2, number of odd inputs: 7
+
+discarding input after noncharacter:
+
+input some integers, then input a character to receive the
+number of even and odd integers you input before the character.
+-5 -454 - 454
+number of even inputs: 1, number of odd inputs: 1
+
+not accepting anything after a decimal:
+
+input some integers, then input a character to receive the
+number of even and odd integers you input before the character.
+-25.343 -23 2
+number of even inputs: 0, number of odd inputs: 1
