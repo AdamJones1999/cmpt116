@@ -1,0 +1,82 @@
+==========problem 5 test cases=========
+
+---garbage input----
+
+please input 16 unique integers in the range of 1 to 16 inclusive to check
+and see if, when read left to right as a 4 by 4 array, your input forms a magic square.
+afdsfa
+invalid input, try again.
+
+----magic squares that arent in the valid input space----
+
+please input 16 unique integers in the range of 1 to 16 inclusive to check
+and see if, when read left to right as a 4 by 4 array, your input forms a magic square.
+32 4 6 26
+10 22 20 16
+18 14 12 24
+8 28 30 2
+invalid input, try again.
+
+----input that is a magic square but has invalid duplicate input----
+
+please input 16 unique integers in the range of 1 to 16 inclusive to check
+and see if, when read left to right as a 4 by 4 array, your input forms a magic square.
+1 1 1 1
+1 1 1 1
+1 1 1 1
+1 1 1 1
+invalid input, try again.
+
+----rows add up right, not anything else---
+
+please input 16 unique integers in the range of 1 to 16 inclusive to check
+and see if, when read left to right as a 4 by 4 array, your input forms a magic square.
+16 15 1 2
+14 13 3 4
+12 11 5 6
+10 9 7 8
+ this input  is valid but, it does not generate a 4x4 magic square.
+
+----columns add up right, not anything else---
+
+please input 16 unique integers in the range of 1 to 16 inclusive to check
+and see if, when read left to right as a 4 by 4 array, your input forms a magic square.
+16 15 14 13
+12 11 10 9
+1 2 3 4
+5 6 7 8
+ this input  is valid but, it does not generate a 4x4 magic square.
+ 
+----known magic squares----
+
+please input 16 unique integers in the range of 1 to 16 inclusive to check
+and see if, when read left to right as a 4 by 4 array, your input forms a magic square.
+1 12 8 13
+15 6 10 3
+14 7 11 2
+4 9 5 16
+this input is valid, and generates a 4x4 magic square.
+
+please input 16 unique integers in the range of 1 to 16 inclusive to check
+and see if, when read left to right as a 4 by 4 array, your input forms a magic square.
+13 2 3 16
+8 11 10 5
+12 7 6 9
+1 14 15 4
+this input is valid, and generates a 4x4 magic square.
+
+please input 16 unique integers in the range of 1 to 16 inclusive to check
+and see if, when read left to right as a 4 by 4 array, your input forms a magic square.
+16 3 2 13
+5 10 11 8
+9 6 7 12
+4 15 14 1
+this input is valid, and generates a 4x4 magic square.
+
+please input 16 unique integers in the range of 1 to 16 inclusive to check
+and see if, when read left to right as a 4 by 4 array, your input forms a magic square.
+16 2 3 13
+5 11 10 8
+9 7 6 12
+4 14 15 1
+this input is valid, and generates a 4x4 magic square.

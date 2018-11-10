@@ -1,0 +1,51 @@
+==========problem 4 test cases=========
+
+----garbage input----
+
+input a size of the array.
+^[[A2
+input set: {}
+smoothed set: {}
+
+----empty array----
+
+input a size of the array.
+0
+input set: {}
+smoothed set: {}
+
+----array with 1 elements----
+
+input a size of the array.
+1
+input 1 elements into the data set.
+6
+input set: {6}
+smoothed set: {6}
+
+----array with 2 elements----
+
+input a size of the array.
+2
+input 2 elements into the data set.
+5 -8
+input set: {5, -8}
+smoothed set: {-1.5, -1.5}
+
+----array with odd >2 elements----
+
+input a size of the array.
+5
+input 5 elements into the data set.
+3 6 5 9 -1
+input set: {3, 6, 5, 9, -1}
+smoothed set: {4.5, 4.66667, 6.66667, 4.33333, 4}
+
+----array with even >2 elements----
+
+input a size of the array.
+6
+input 6 elements into the data set.
+6 -4 2 8 40 13
+input set: {6, -4, 2, 8, 40, 13}
+smoothed set: {1, 1.33333, 2, 16.6667, 20.3333, 26.5}

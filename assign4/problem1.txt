@@ -1,0 +1,54 @@
+==========problem 4 test cases=========
+
+----garbage input----
+
+input B: beam
+asdf
+input L: length
+input T: draft
+input x: position x on the hull, where x = 0 is at center of length
+input n: number of iterations in the computation
+cross sectional area at x = 0: -nan
+
+----x input not in the range of the hull (abs(x) > L/2)----
+
+input B: beam
+40
+input L: length
+23
+input T: draft
+45
+input x: position x on the hull, where x = 0 is at center of length
+12
+input n: number of iterations in the computation
+1000
+invalid x coordinate. x must have smaller magnitude than half the
+hull's length (L/2) because the hull is symmetrical about the x-axis.
+
+----valid inputs----
+
+input B: beam
+20
+input L: length
+90
+input T: draft
+40
+input x: position x on the hull, where x = 0 is at center of length
+30
+input n: number of iterations in the computation
+1000
+cross sectional area at x = 30: 296.518
+
+---same except -30 = x (should be same area)
+
+input B: beam
+20
+input L: length
+90
+input T: draft
+40
+input x: position x on the hull, where x = 0 is at center of length
+-30
+input n: number of iterations in the computation
+1000
+cross sectional area at x = -30: 296.518

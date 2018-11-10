@@ -1,0 +1,23 @@
+==========problem 3 test cases=========
+
+----garbage inputs----
+
+input a pair of coordinates from which the drunkard makes 100 moves
+in the 4 cardinal directions.
+asdf
+invalid input: try again.
+
+----non-integer input----
+
+input a pair of coordinates from which the drunkard makes 100 moves
+in the 4 cardinal directions.
+.555 56
+invalid input: try again.
+
+----valid inputs----
+
+input a pair of coordinates from which the drunkard makes 100 moves
+in the 4 cardinal directions.
+3 -5
+start position: (3, -5)
+end position: (4, -10)
