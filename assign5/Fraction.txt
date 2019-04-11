@@ -1,0 +1,66 @@
+assignment 5 test cases
+
+ addition
+
+Enter numerator and denominator for fraction
+3
+4
+You entered: 3/4
+
+Enter operation to perform: a(dd), s(ubtract), m(ultiply), d(ivide), r(educe), q(uit)
+a
+Enter numerator and denominator for operation a
+5
+2
+Result of the operation is: 3/4
+
+
+subtraction
+
+adam@DESKTOP-IO1CQOL:/mnt/c/Users/Adam Jones/school-cs/cmpt116/assign5$ ./a.out
+Enter numerator and denominator for fraction
+3
+4
+You entered: 3/4
+
+Enter operation to perform: a(dd), s(ubtract), m(ultiply), d(ivide), r(educe), q(uit)
+s
+Enter numerator and denominator for operation s
+5
+2
+Result of the operation is: 3/4
+
+Enter operation to perform: a(dd), s(ubtract), m(ultiply), d(ivide), r(educe), q(uit)
+^C
+
+multiplication
+
+adam@DESKTOP-IO1CQOL:/mnt/c/Users/Adam Jones/school-cs/cmpt116/assign5$ ./a.out
+Enter numerator and denominator for fraction
+3
+4
+You entered: 3/4
+
+Enter operation to perform: a(dd), s(ubtract), m(ultiply), d(ivide), r(educe), q(uit)
+m
+Enter numerator and denominator for operation m
+5
+2
+Result of the operation is: 0/1
+
+division 
+
+Enter operation to perform: a(dd), s(ubtract), m(ultiply), d(ivide), r(educe), q(uit)
+^C
+adam@DESKTOP-IO1CQOL:/mnt/c/Users/Adam Jones/school-cs/cmpt116/assign5$ ./a.out
+Enter numerator and denominator for fraction
+3
+4
+You entered: 3/4
+
+Enter operation to perform: a(dd), s(ubtract), m(ultiply), d(ivide), r(educe), q(uit)
+d
+Enter numerator and denominator for operation d
+5
+2
+Result of the operation is: 1/0
