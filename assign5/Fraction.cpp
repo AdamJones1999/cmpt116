@@ -45,8 +45,7 @@ public:
 			return false;
 		}
 	}
-	
-	//this is what is causing my ouptuts to not work i think
+
 	void reduce() {
 		int temp = num;
 		num = num / GCD(num, denom);
@@ -158,10 +157,11 @@ int main() {
 
     b.assign(i,j);
 
-    switch(option) { /* switch does a different thing depending on the value of the parameter (option in this case).  The cases 
-                             * The cases below represent the scenarios.  For each case other than the final default one, we have to
-                             * explicitly break out of the switch statement (i.e., get to the code after the right curly bracket) after
-                             * doing what we need to do. */
+    switch(option) { 
+	/* switch does a different thing depending on the value of the parameter (option in this case).  The cases 
+    * The cases below represent the scenarios.  For each case other than the final default one, we have to
+    * explicitly break out of the switch statement (i.e., get to the code after the right curly bracket) after
+    * doing what we need to do. */
 
     case 'a': a.add(b); break;
     case 's': a.subtract(b); break;
